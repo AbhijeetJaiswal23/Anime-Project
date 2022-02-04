@@ -1,0 +1,24 @@
+.item
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 16px;
+    
+}
+.img{
+    
+     height: 30vh;
+     object-fit: contain;
+}
+.item-title{
+    color: #030e12;
+}
+@media (max-width: 800px) {
+    .img {
+      
+        height: 15vh;
+    }
+  }
